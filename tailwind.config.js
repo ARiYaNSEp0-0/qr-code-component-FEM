@@ -2,7 +2,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["index.html", "./src/css/*"],
   theme: {
     extend: {
       colors: {
@@ -18,6 +18,17 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Outfit", ...defaultTheme.fontFamily.sans],
+      },
+      fontSize: {
+        base: "0.9375rem",
+        xl: "1.375rem",
+      },
+      boxShadow: {
+        "2xl": "0 25px 25px rgba(0, 0, 0, 0.0477)",
+      },
+      borderRadius: {
+        md: "10px",
+        lg: "20px",
       },
     },
   },

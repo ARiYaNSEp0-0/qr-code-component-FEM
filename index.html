@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,13 +19,35 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./src/assets/images/favicon-32x32.png"
     />
     <meta
       name="description"
       content="QR card component for frontendmentor.io challenge"
     />
     <title>Frontend Mentor | QR code component</title>
+    <link rel="stylesheet" href="./src/css/style.min.css" />
   </head>
-  <body></body>
+  <body class="bg-gray-300 text-base font-normal leading-tight text-gray-600">
+    <main>
+      <article
+        class="mx-auto mt-[9.5rem] max-w-80 rounded-lg bg-white p-4 text-center shadow-2xl"
+      >
+        <img
+          class="rounded-md"
+          src="./src/assets/images/image-qr-code.png"
+          alt="qr code image"
+        />
+        <div class="my-6 px-4">
+          <h1 class="mb-4 text-xl font-bold text-blue-900">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="tracking-[0.011875rem]">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
