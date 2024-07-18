@@ -6,7 +6,7 @@
   "scripts": {
     "tailwind:init": "tailwindcss init",
     "tailwind:dev": "tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
-    "tailwind:build": "tailwindcss -o ./src/css/style.min.css --minify"
+    "tailwind:build": "tailwindcss -o ./src/css/output.css --minify"
   },
   "keywords": [],
   "author": "Cyruskabir",
